@@ -1,0 +1,11 @@
+{
+  "name": "xig-plugins",
+  "owner": { "name": "XIG" },
+  "plugins": [
+    {
+      "name": "au-small-business",
+      "source": "./plugins/au-small-business",
+      "description": "Small business workflows for Australian businesses, released in stages as each skill is adapted for Australian rules. No US tax or payroll skills."
+    }
+  ]
+}

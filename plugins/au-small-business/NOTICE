@@ -1,0 +1,15 @@
+Small Business (Australia)
+Copyright 2026 XIG
+
+This plugin is a modified version of the Small Business plugin from
+https://github.com/anthropics/knowledge-work-plugins, licensed under the
+Apache License, Version 2.0 (see LICENSE). It is not an official Anthropic
+product and is not endorsed by Anthropic.
+
+Based on upstream version 1.35.2 (commit 0e0fcac).
+
+Changes: US-only skills removed (payroll-prep, plan-payroll, tax-prep, tax-season-organizer, grant-rfp-writer);
+skills held back from this release (au-payroll-prep, au-bas-prep, au-employment-paperwork, au-grants-tenders, ap-processor, pay-the-bills, invoice-chase, cash-flow-snapshot, month-end-prep, close-month, speed-to-lead, inventory-planner, restock, proposal-builder, contract-review, outreach-composer, lead-finder, grow-pipeline, reactivate, job-post-builder, hiring-screener, ticket-deflector, review-reputation, marketing-monday, call-list, content-strategy, social-content-engine, canva-creator, ad-manager, seo-ai-visibility);
+references to them rewritten to Australian skills; Australian skills, agents
+and commands added. Files changed from upstream carry a notice and are listed
+in build-report.json.

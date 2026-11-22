@@ -1,0 +1,18 @@
+{
+  "name": "au-small-business",
+  "displayName": "Small Business (Australia)",
+  "description": "Small business workflows for Australian businesses, released in stages as each skill is adapted for Australian rules. No US tax or payroll skills. Based on Anthropic's open-source Small Business plugin (Apache-2.0). Not an official Anthropic product.",
+  "author": {
+    "name": "XIG"
+  },
+  "keywords": [
+    "australia",
+    "small-business",
+    "bas",
+    "gst",
+    "payroll",
+    "superannuation",
+    "fair-work"
+  ],
+  "version": "0.1.0"
+}
