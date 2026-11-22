@@ -43,8 +43,8 @@ The spine of this skill. Without it, funnel conversion is unavailable and the pu
 
 | Source | What to pull |
 |---|---|
-| TikTok Ads | Native connector. `report_integrated_get` at campaign level for the last 7 days and the prior 7: spend, impressions, clicks, results, cost per result. `advertiser_info_get` first to confirm the account. Same reads and traps as `ad-manager` (coming in a later release) (`../../ad-manager (coming in a later release)/SKILL.md`); read there before the first call |
-| Google Ads | Not wired into this skill — ask for a CSV export. The connector itself lives on `ad-manager` (coming in a later release) |
+| TikTok Ads | Native connector. `report_integrated_get` at campaign level for the last 7 days and the prior 7: spend, impressions, clicks, results, cost per result. `advertiser_info_get` first to confirm the account. Confirm the account first and keep to read-only reports |
+| Google Ads | Not wired into this skill — ask for a CSV export. Ads management is coming in a later release |
 
 **Attribution honesty.** Ad platforms report conversions they claim. The CRM reports leads it received. These rarely agree, and the gap is not a bug. Report both and name the gap rather than picking the flattering one.
 

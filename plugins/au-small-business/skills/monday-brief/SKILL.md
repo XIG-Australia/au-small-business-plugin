@@ -72,9 +72,6 @@ If `--post` is set, post the one thing and the top-line numbers only, with a lin
 One line: the brief is delivered and saved. Then the single most relevant next
 step, plus at most two others nearby:
 
-- If the one thing is a collections problem: "who owes me money" runs `invoice-chase` (coming in a later release).
-- If cash is the worry: "cash forecast" runs `cash-flow-snapshot` (coming in a later release).
-- For the growth side of the same week: "weekly growth brief" runs `/marketing-monday` (coming in a later release).
 
 Max three offers. Never repeat an offer the owner declined this session.
 

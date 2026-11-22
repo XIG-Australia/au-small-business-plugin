@@ -6,9 +6,9 @@ description: >
   markers, ranks the ones worth a call today with talking points, drafts the
   follow-ups, and proposes calendar times for the owner to book. Use when the
   owner asks to prioritize, score, or rank leads, asks "who should I call
-  first," or asks about their pipeline. An ask that wants the ranked leads
-  turned into a call list with time blocked on the calendar routes to
-  /call-list (coming in a later release), which runs this skill first and then books the time.
+  first," or asks about their pipeline. Call lists with time blocked on
+  the calendar are coming in a later release; those asks route to
+  `coming-later`.
 allowed-tools: Read, WebFetch
 ---
 
@@ -70,7 +70,7 @@ User: "prioritize my leads"
 
 ## Closing offer
 
-End with one line on what the triage produced, then the most relevant next step with its trigger phrase — usually "call list" (`/call-list` (coming in a later release)) to add calendar blocks around the ranking. Up to two others when they fit: "write this outreach" (`outreach-composer` (coming in a later release)) or "update the CRM" (`crm-autopilot`). Never more than three, and never re-offer something the owner already declined this session.
+End with one line on what the triage produced, then the most relevant next step with its trigger phrase — usually "update the CRM" (`crm-autopilot`) to log what the calls produce. Call lists with calendar blocks and outreach drafting are coming in a later release. Never more than three, and never re-offer something the owner already declined this session.
 
 ## No HubSpot?
 

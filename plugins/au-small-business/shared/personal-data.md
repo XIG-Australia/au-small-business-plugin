@@ -35,12 +35,11 @@ page.
 ## Kept to the output that needs it
 
 - **Per-person pay** (rate, hours, gross, net, deductions) appears only in
-  payroll and tax outputs — `au-payroll-prep` (coming in a later release),
-  `au-bas-prep` (coming in a later release), and the journal lines in `month-end-prep` (coming in a later release) — never
+  payroll and tax outputs, none of which are in this release — never
   in a brief, a pulse, a hiring output, or a customer-facing draft.
 - **Medical, disability, leave-reason, and protected-class details** seen in
   a resume, a time-off request, or a ticket are not carried into any score,
-  note, or output. `hiring-screener` (coming in a later release)'s fair-screening rules apply.
+  note, or output.
 - **Customer contact details** go only where the skill's step sends them:
   the CRM of record, or the draft addressed to that customer. Never into a
   shared channel post or an artifact meant for a wider audience.
@@ -56,7 +55,6 @@ system, where it sits under its own access controls. One line, no lecture.
 
 ## Skills this governs first
 
-`au-payroll-prep` (coming in a later release), `hiring-screener` (coming in a later release), `au-bas-prep` (coming in a later release),
-`ap-processor` (coming in a later release), `ticket-deflector` (coming in a later release), and `month-end-prep` (coming in a later release). Every
+`inbox-manager`, `crm-autopilot`, `business-pulse` and `report-builder`. Every
 other skill applies it the moment a connector returns one of the fields
 above.

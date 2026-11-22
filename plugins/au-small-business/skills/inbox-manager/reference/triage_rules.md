@@ -67,6 +67,6 @@ Ray's inbox: 63 new since yesterday afternoon.
 
 **Handled (48)** — 26 receipts, 11 newsletters, 7 shipping notices, 4 platform notifications.
 
-**Handed off (3)** — 2 vendor bills to `ap-processor` (coming in a later release), 1 web form inquiry to `speed-to-lead` (coming in a later release).
+**Handed off (3)** — 2 vendor bills left in needs-you with due dates pulled out, 1 web form inquiry with a reply drafted.
 
 Ray reads that in about a minute and knows exactly what his morning is.

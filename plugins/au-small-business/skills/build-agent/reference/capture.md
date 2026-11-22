@@ -118,7 +118,7 @@ Sometimes the honest answer is that a shipped skill already covers it, or that t
 Say so plainly:
 
 ```
-This is close to what `invoice-chase` (coming in a later release) already does. Want me to look at whether
+This is close to what `report-builder` already does. Want me to look at whether
 it covers your case before we build something new?
 ```
 

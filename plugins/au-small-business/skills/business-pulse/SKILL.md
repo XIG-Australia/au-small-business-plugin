@@ -57,7 +57,7 @@ If a connector errors or returns no data, record it internally and move on. Neve
 - Sales this week versus a normal week, even roughly
 - Anything already worrying them this week
 
-Build the same one-page pulse from those answers, label the source line "owner-supplied, not pulled," and skip any section they had no number for. If they'd rather not type numbers, point them at the siblings that run off a file export instead — `cash-flow-snapshot` (coming in a later release) and `report-builder` both take a CSV — and say plainly that gives a partial picture, not the full one.
+Build the same one-page pulse from those answers, label the source line "owner-supplied, not pulled," and skip any section they had no number for. If they'd rather not type numbers, point them at the siblings that run off a file export instead — `report-builder` takes a CSV — and say plainly that gives a partial picture, not the full one.
 
 ## Step 2 — Compute metrics
 
@@ -124,7 +124,6 @@ If they say yes, do it. If they say no or don't respond, move on — don't ask a
 Close with one line on what the pulse covered, then the single most relevant
 next step and at most two others nearby:
 
-- If cash or AR flagged red: "who owes me money" runs `invoice-chase` (coming in a later release).
 - If growth questions dominate: "is my marketing working" runs `growth-pulse`.
 - To make this recurring: "Monday brief" runs `/monday-brief` every week.
 

@@ -52,7 +52,7 @@ Storefront and point-of-sale capability notes (what each holds, per its own refe
 
 ## Commands (11 folders + 1 in-skill chain)
 
-The eleven command folders are listed below. The twelfth flow is the scheduled inquiry chain that lives inside the `speed-to-lead` (coming in a later release) skill rather than in its own folder, and its gate matches `speed-to-lead` (coming in a later release) (HubSpot + Gmail).
+The command folders in this release are listed below.
 
 Commands inherit the requirements of the skills they chain. The lead skill's requirement decides whether the command can start; optional legs degrade per skill.
 

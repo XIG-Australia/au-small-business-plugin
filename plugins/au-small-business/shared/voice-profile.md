@@ -10,16 +10,7 @@ Skills that read this file:
 
 | Skill | Writes |
 |---|---|
-| `outreach-composer` (coming in a later release) | Prospect outreach and follow-up sequences |
-| `speed-to-lead` (coming in a later release) | Instant replies to inbound inquiries |
-| `invoice-chase` (coming in a later release) | Overdue-invoice reminders |
-| `review-reputation` (coming in a later release) | Public review responses and win-back offers |
 | `inbox-manager` | Email replies and drafts |
-| `social-content-engine` (coming in a later release) | Post captions and copy |
-| `ticket-deflector` (coming in a later release) | Customer service replies |
-| `hiring-screener` (coming in a later release) | Candidate responses and rejections |
-| `au-grants-tenders` (coming in a later release) | Cover letters and application prose |
-| `inventory-planner` (coming in a later release) | Vendor emails and PO cover notes |
 | `lead-triage` | Follow-up drafts |
 
 **A correction made here fixes all of them.** That is the point of it being shared — an owner who strikes "just following up" once should never see it again from any skill.

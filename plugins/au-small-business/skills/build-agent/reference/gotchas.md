@@ -162,7 +162,7 @@ Build "chase unpaid invoices" from scratch.
 ### Good
 
 ```
-This is close to what `invoice-chase` (coming in a later release) already does. Want me to check whether
+This is close to what `report-builder` already does. Want me to check whether
 it covers your case before we build something new?
 ```
 

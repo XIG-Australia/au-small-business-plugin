@@ -103,9 +103,9 @@ clock is **three hours wrong**, and wrong in the direction that makes the owner
 late.
 
 Reading a summary at the wrong hour is embarrassing. The same bug on an outward
-action is not recoverable: `hiring-screener` (coming in a later release) sends interview invitations,
-`hiring-screener` (coming in a later release) sends interview invites, `lead-triage` blocks call time. A
-candidate given the wrong interview hour is a candidate lost, and no apology
+action is not recoverable:
+`lead-triage` blocks call time. A
+call booked at the wrong hour is a lead lost, and no apology
 fixes it.
 
 **The rule.**

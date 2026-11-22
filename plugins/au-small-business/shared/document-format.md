@@ -67,19 +67,19 @@ courtesy copy; a genuine external requirement is never optional.**
 
 ## Skills this governs today
 
-- `proposal-builder` (coming in a later release) — Step 5. DOCX and PDF are produced only when the
+- None in this release beyond the reporting skills below. DOCX and PDF are produced only when the
   preference calls for them; the HTML artifact is the default and always
   offered regardless.
-- `job-post-builder` (coming in a later release) — the job post and interview guide follow the
-  preference (both are typically pasted or read, not filed); the offer
-  letter stays a real file by default because Phase 6 routes it to
-  DocuSign — the override rule above, not an exception to it.
+- Skills coming in a later release follow the
+  preference too, except where a document must stay a real file (for example
+  one that goes for e-signature), which is the override rule above, not an
+  exception to it.
 
-**Deliberately not touched:** `contract-review` (coming in a later release)'s redline DOCX (a lawyer
+**Deliberately not touched:** a lawyer's
 markup format the owner explicitly asks for, not a default), `report-builder`
 /`report-pack`'s XLSX (a working data appendix, not a stylistic document
-choice), and `au-grants-tenders` (coming in a later release) (funder portals dictate the submission
-format, not the owner). Applying a personal-taste preference to a file a
+choice), and any submission whose format a third party dictates (the
+recipient decides, not the owner). Applying a personal-taste preference to a file a
 third party requires in a specific format would be the wrong fix.
 
 ## If the preference is unset when a skill runs

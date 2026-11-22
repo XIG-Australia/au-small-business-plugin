@@ -22,13 +22,13 @@ Map the owner's stated headache to the two **categories** of tool to link first.
 
 | Primary headache | First category | Second category | Prove-value recipe |
 |---|---|---|---|
-| Cash flow / invoicing | Accounting ledger | Payments or point of sale | `cash-flow-snapshot` (coming in a later release) |
+| Cash flow / invoicing | Accounting ledger | Payments or point of sale | `business-pulse` — cash position and what's owed; invoicing and forecasts are coming in a later release |
 | Customer follow-up | CRM | Mail | `lead-triage` — the growth quick-win, ranks who to call back first |
-| Hiring / job posts | Mail | Calendar | `job-post-builder` (coming in a later release) |
+| Hiring / job posts | Mail | Calendar | `inbox-manager` — hiring tools are coming in a later release |
 | Staying organized | Desktop (folder setup) | Mail | Desktop folder structure demo |
 | Scheduling overload | Calendar | Mail | `business-pulse` |
-| Selling online / stock | Storefront or point of sale (holds orders and stock) | Accounting ledger | `inventory-planner` (coming in a later release) |
-| General / unsure | Mail | Accounting ledger | `cash-flow-snapshot` (coming in a later release) |
+| Selling online / stock | Storefront or point of sale (holds orders and stock) | Accounting ledger | `business-pulse` — sales trend; stock reordering is coming in a later release |
+| General / unsure | Mail | Accounting ledger | `business-pulse` |
 
 One optional third category for the customer follow-up row: **lead data and enrichment**, which fills in company size and industry when the CRM's leads carry no company record. It is metered (credits per row), so it is never the first ask and never named by vendor here — if the owner already has one, connect it after the CRM and `lead-triage` uses it; if not, the recipe runs without it.
 
@@ -46,9 +46,9 @@ Never suggest the owner switch to a tool we support. If they ask "which one shou
 
 Run the prove-value recipe immediately after the **first** connector is live — do not wait for the second. If connectors are already active at session start, run the matched recipe for the owner's primary headache before beginning the interview. Keyed by category, whichever connector fills it:
 
-1. Any accounting ledger, or any payments / point-of-sale connector → `cash-flow-snapshot` (coming in a later release)
+1. Any accounting ledger, or any payments / point-of-sale connector → `business-pulse`
 2. Any CRM → `lead-triage` (rank the open leads, recommend today's callbacks — nothing is written back)
-3. Any storefront or point-of-sale connector that holds orders and stock → `inventory-planner` (coming in a later release) (a payments-only connector with no stock data belongs under rung 1)
+3. Any storefront or point-of-sale connector that holds orders and stock → `business-pulse` (a payments-only connector with no stock data belongs under rung 1)
 4. Any mail connector → search for unread invoice-related emails, surface top 3
 5. Calendar → `business-pulse`
 6. Desktop only → walk Desktop folder setup, create recommended structure
@@ -57,7 +57,7 @@ Run the prove-value recipe immediately after the **first** connector is live —
 
 These are technical steps one connector needs before its recipe can run. They are not preferences.
 
-- **QuickBooks `profile_info_required`:** if QuickBooks returns this status (missing business_name or industry), use the `quickbooks-profile-info-update` tool with the owner's business name from interview question 1 before running `cash-flow-snapshot` (coming in a later release). Do not skip the recipe — collect the missing info first.
+- **QuickBooks `profile_info_required`:** if QuickBooks returns this status (missing business_name or industry), use the `quickbooks-profile-info-update` tool with the owner's business name from interview question 1 before running `business-pulse`. Do not skip the recipe — collect the missing info first.
 - **HubSpot portal readiness:** before running `lead-triage` as the recipe, count contacts with one `search_crm_objects` call (limit 1; read `total`). Zero means the recipe would rank an empty list: say so in one line, offer `manage_onboarding` (action `SET_GOAL`) to start HubSpot's own setup, and run the recipe only once contacts exist — or on a pasted lead list if the owner prefers. `get_user_details` also returns an `onboarded` flag; treat it as a hint about HubSpot's guided setup, not as the test, because a portal with hundreds of contacts can still report `onboarded: false`. This is a technical readiness step for one connector, not a preference.
 
 ### Country, currency, and financial year — read from the ledger first, then the storefront

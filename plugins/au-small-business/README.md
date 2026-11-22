@@ -21,6 +21,7 @@ it working.
 | `build-agent` | Turns a task the owner keeps doing by hand into a named, reusable skill they can trigger by name or put on a schedule. |
 | `build-connector` | Gets Claude talking to a tool nobody built an official connector for. |
 | `business-pulse` | Produces a one-page cross-functional business snapshot for SMB owners — cash position (the ledger: MYOB, NetSuite, QuickBooks, Xero, or Zoho Books), sales trend (PayPal/Square/Stripe), pipeline movement (HubSpot), this week's commitments (Calendar), urgent watch-list items (Gmail or M365, Slack), and the single most important thing needing attention today. |
+| `coming-later` | Handles requests and questions about work this release of Small Business (Australia) doesn't do yet, including what-is questions. |
 | `crm-autopilot` | Keeps the CRM current without the owner ever opening it. |
 | `growth-pulse` | Answers one question for an SMB owner — is the growth engine actually working? |
 | `inbox-manager` | Turns a full inbox into a short, ranked list of what actually needs the owner. |

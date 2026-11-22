@@ -97,7 +97,7 @@ Same metric families as the QuickBooks section, from `get_profit_and_loss` (reve
 
 Card spend, expense categories, receipts, reimbursements. Useful for expense-side reports and for catching spend that has not yet hit the books.
 
-**Ramp** also carries real business and treasury account balances with history, plus vendor bill detail and natural-language spend analytics. Its write actions — approve or reject a bill, mark a bill ready to sync — belong to `ap-processor` (coming in a later release), never to a report. Read only, here.
+**Ramp** also carries real business and treasury account balances with history, plus vendor bill detail and natural-language spend analytics. Its write actions — approve or reject a bill, mark a bill ready to sync — are never used by a report. Read only, here.
 
 **Expensify is read-only search.** Expense reports, individual expenses, invoices, trips, category-grouped totals, and approval-state statuses. Receipt substantiation is a first-class filter: "expenses over USD 75 with no receipt attached" is a real query and a genuinely useful report.
 
@@ -137,7 +137,7 @@ metric families are assembled from lists, and the report says so.
 | AP (open commitments) | `list_purchase_orders` open, plus `list_expenses` with `status=unbilled` |
 | Cash position | `list_bank_accounts` — `current_balance` per active account |
 | Sales by customer / product | `list_invoices` grouped by `customer_name` or by line `item_name`; `list_sales_orders` for orders not yet invoiced |
-| Payroll expense | Not available — no P&L. Take it from the payroll connector (`month-end-prep` (coming in a later release) Step 5a) or an export |
+| Payroll expense | Not available — no P&L. Take it from a payroll export |
 
 - **No P&L, cash-flow, or aging report endpoints.** "Net income" is invoiced revenue minus recorded expenses, labelled as such; a true P&L comes from the Reports export.
 - **No bill object and no vendor payments.** AP is purchase orders and expenses only.

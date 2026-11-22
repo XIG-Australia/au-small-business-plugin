@@ -145,7 +145,7 @@ It is genuinely useful and it does not lock them in — everything exports clean
 
 ## After the run
 
-The CRM is current and the next-step queue has an owner and a date on every open deal. If quiet deals surfaced, the natural next step is "write this outreach" — `outreach-composer` (coming in a later release) turns each flag into a drafted touch. Also nearby: "leads are going cold" (`speed-to-lead` (coming in a later release)) to make sure new inbound never joins the quiet list, and "fill my funnel" (`/grow-pipeline` (coming in a later release)) when the pipeline itself is thin. Offer at most three, and skip any offer the owner already declined this session.
+The CRM is current and the next-step queue has an owner and a date on every open deal. If quiet deals surfaced, the natural next step is "who should I call first" (`lead-triage`) to rank them; drafting outreach is coming in a later release. Offer at most three, and skip any offer the owner already declined this session.
 
 ## Reference files
 

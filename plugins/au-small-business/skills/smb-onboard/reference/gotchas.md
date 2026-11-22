@@ -13,7 +13,7 @@ Skips the recipe entirely. Owner leaves not knowing what they just enabled.
 ### ✓ Good
 
 > "QuickBooks is live. Let me pull your last 30 days of cash flow — takes about 10 seconds."
-> *[runs cash-flow-snapshot (coming in a later release), shows results]*
+> *[runs `business-pulse`, shows results]*
 > "That's what we can do anytime you want a number check. Now, a few questions about your business…"
 
 The demo runs before the interview, every time, without exception.

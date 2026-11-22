@@ -103,8 +103,6 @@ After presenting, offer once to save the pulse as a file or post it to Slack. Po
 
 Then close with what the pulse found in one line, plus the single most relevant next step and at most two others nearby:
 
-- If the actions point at content or promotion: "what should I promote" runs `content-strategy` (coming in a later release).
-- If the funnel is the problem: "fill my funnel" runs `/grow-pipeline` (coming in a later release).
 - For the finance-side twin: "how's the business doing" runs `business-pulse`.
 
 Max three offers. Never repeat an offer the owner declined this session.

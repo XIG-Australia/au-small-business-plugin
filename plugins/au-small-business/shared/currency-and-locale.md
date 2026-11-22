@@ -88,11 +88,10 @@ otherwise:
 - **Never run an Australian calculation on a non-Australian business and label it an
   estimate.** A wrong tax number with a confident label is the failure this
   rule exists to prevent.
-- **Flows scoped this way today:** `au-bas-prep` (coming in a later release), `au-payroll-prep` (coming in a later release) and
-  `au-employment-paperwork` (coming in a later release) (Australian tax, payroll and employment rules), `au-grants-tenders` (coming in a later release)'s opportunity
-  sources (Australian federal, state and council portals), `hiring-screener` (coming in a later release)'s onboarding
-  paperwork list (US forms), `job-post-builder` (coming in a later release)'s offer letter (US
-  employment terms, already carrying a jurisdiction disclaimer).
+- **Flows scoped this way today:** none in this release. Tax, payroll,
+  employment and grants work is coming in a later release, built for
+  Australian rules; until then `coming-later` answers those requests
+  without running any country's tax or employment calculation.
 
 ---
 

@@ -28,7 +28,7 @@
 
 **Claude:** Xero is live. I can see the business is in Australia, invoicing in AUD, with a 30 June year end — I'll keep that on file. Let me pull your last 30 days of cash flow right now.
 
-*[runs cash-flow-snapshot (coming in a later release)]*
+*[runs `business-pulse`]*
 
 **Claude:** Here's your snapshot: AUD 4,200 net cash in for the month, but AUD 6,100 in outstanding invoices, mostly from two contractor accounts. Your biggest gap looks like 30-day customers paying at 45. Does that match what you're seeing?
 
@@ -88,7 +88,7 @@ Look right?
 - [ ] Asked headache question before naming any tool category
 - [ ] Named the category (bookkeeping) and asked what the owner uses — never proposed a vendor
 - [ ] Read country, currency, and financial year end from the ledger and said so in one line
-- [ ] Ran `cash-flow-snapshot` (coming in a later release) immediately after the ledger connected, before interview
+- [ ] Ran `business-pulse` immediately after the ledger connected, before interview
 - [ ] Connected second tool (mail, owner's choice) before starting interview
 - [ ] Asked the interview questions one at a time
 - [ ] Showed profile draft before writing, with the three locale fields filled

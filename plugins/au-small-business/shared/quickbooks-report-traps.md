@@ -161,7 +161,7 @@ sheet's A/P line. A negative figure anywhere in a summary means this trap
 fired; say the vendor holds a credit rather than reporting negative overdue
 money.
 
-This is the payables twin of `ap-processor` (coming in a later release)'s "a vendor total is a net figure"
+This is the payables twin of the "a customer total is a net figure"
 rule, which applies the same reading to any aging source.
 
 ---
@@ -180,7 +180,7 @@ company, same minute:
 This is not thin data — fifty employees came back — it is the readiness
 tool reporting a state its sibling disproves. It is a different failure from
 a payroll source that simply returns nothing,
-and `au-payroll-prep` (coming in a later release) treats the two differently.
+and the two are reported differently: say which one happened.
 
 **The rule.** Read both calls. Take the roster from the employee list, since
 it is the call that returned rows. Never stage a run while readiness says

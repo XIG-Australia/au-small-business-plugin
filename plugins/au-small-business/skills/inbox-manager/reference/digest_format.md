@@ -11,7 +11,7 @@ The digest is the product. Everything else this skill does is upstream of it.
 1. **One-line headline** — how much came in, how much needs them.
 2. **Needs you** — ranked by consequence, each with the ask in one line and what happens if it waits.
 3. **Drafted and waiting** — sender, one-line summary of the reply, grouped where similar.
-4. **Handed off** — one line each, naming the receiving skill *and what happens next*: where the item now sits and what the owner says to pick it up (e.g. "→ ap-processor (coming in a later release) — bill staged there; say 'process my bills' to review"). A handoff line the owner can't act on is a dead end.
+4. **Handed off** — one line each, naming the receiving skill *and what happens next*: where the item now sits and what the owner says to pick it up (e.g. "→ `crm-autopilot` — logged on the deal; say 'update my CRM' to review"). A handoff line the owner can't act on is a dead end.
 5. **Covered by someone else** — threads a colleague already answered. One line each, no draft written.
 6. **Handled** — a single count with categories, ending with a fixed suffix so the owner knows what "handled" means: "filed and archived — nothing needs you; ask to see any category."
 7. **The approval prompt** — one question.
@@ -48,11 +48,11 @@ DRAFTED — 11 ready to send
    2 referral thank-yous
 
 HANDED OFF — 3
-   Ferguson invoice #88214, USD 1,847 → ap-processor (coming in a later release) — staged with your other
-      bills; say "process my bills" to review
-   Sid Harvey statement, USD 612 → ap-processor (coming in a later release) — same payment run as above
-   Web inquiry, Alamo Heights homeowner, 11:40pm → speed-to-lead (coming in a later release) — first
-      reply drafted there, waiting on your approval
+   Ferguson invoice #88214, USD 1,847 → needs you — due date pulled out;
+      bill processing is coming in a later release
+   Sid Harvey statement, USD 612 → needs you — check it against bills paid
+   Web inquiry, Alamo Heights homeowner, 11:40pm → drafted here — first
+      reply waiting on your approval
 
 COVERED BY SOMEONE ELSE — 2
    Nguyen warranty question — Teresa answered it 9:15am

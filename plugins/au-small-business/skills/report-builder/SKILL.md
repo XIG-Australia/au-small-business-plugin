@@ -117,7 +117,6 @@ One line: the report ran and the definition is saved. Then the single most relev
 
 - "The weekly pack, on schedule" runs `/report-pack` to wrap this in context on a cadence.
 - "How's the business doing?" runs `business-pulse` for the picture around these numbers.
-- "Cash forecast" runs `cash-flow-snapshot` (coming in a later release) when the report raised a cash question.
 
 Max three offers. Never repeat an offer the owner declined this session.
 

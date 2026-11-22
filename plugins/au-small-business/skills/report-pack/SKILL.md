@@ -54,8 +54,6 @@ On a no, or on silence, drop it and never ask again.
 
 On an interactive run only — never a scheduled one — close with one line on what was delivered, then the single most relevant next step and at most two others nearby:
 
-- If the pack raised a cash question: "cash forecast" runs `cash-flow-snapshot` (coming in a later release).
-- If the pulse flagged overdue AR: "who owes me money" runs `invoice-chase` (coming in a later release).
 - To change what the pack tracks: "build me a report" runs `report-builder`.
 
 Max three offers. Never repeat an offer the owner declined this session.

@@ -2,11 +2,11 @@
 
 # Tenant scope — a connected document store is not the owner's by default
 
-**Shared across the plugin.** The failure this prevents: `au-grants-tenders` (coming in a later release)
-has no opportunity-feed connector, falls back to Google Drive,
+**Shared across the plugin.** The failure this prevents: a skill
+has no data connector for a task, falls back to Google Drive,
 and the Drive attached to the session belongs to a different
 company. The skill reads another tenant's confidential project notes and
-treats them as the owner's past performance. Nothing in the connector says
+treats them as the owner's own. Nothing in the connector says
 whose Drive it is.
 
 ## The rules
@@ -34,9 +34,7 @@ whose Drive it is.
 
 ## Skills this governs first
 
-`au-grants-tenders` (coming in a later release) (past submissions from Drive or M365). The same four
-rules are linked at the first read in `proposal-builder` (coming in a later release), `contract-review` (coming in a later release),
-`job-post-builder` (coming in a later release), `hiring-screener` (coming in a later release), `inbox-manager`, `speed-to-lead` (coming in a later release),
-`outreach-composer` (coming in a later release), and `invoice-chase` (coming in a later release). A mailbox is a document store for
+Every skill that reads a mailbox or document store. The same four
+rules are linked at the first read in `inbox-manager`. A mailbox is a document store for
 this purpose: a connected Gmail or Microsoft 365 is the owner's only once its
 address matches the business context or the owner names it.
