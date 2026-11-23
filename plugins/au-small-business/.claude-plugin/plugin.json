@@ -14,5 +14,6 @@
     "superannuation",
     "fair-work"
   ],
-  "version": "0.1.4"
+  "icon": "./icon.png",
+  "version": "0.1.5"
 }

@@ -1,3 +1,7 @@
+## v0.1.5 (2026-11-23)
+
+Plugin logo: name the icon in plugin.json.
+
 ## v0.1.4 (2026-11-23)
 
 Personal data and held topics fixed
