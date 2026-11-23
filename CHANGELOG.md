@@ -1,3 +1,7 @@
+## v0.1.4 (2026-11-23)
+
+Personal data and held topics fixed
+
 ## v0.1.3 (2026-11-22)
 
 added logo

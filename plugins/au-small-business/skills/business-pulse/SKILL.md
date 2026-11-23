@@ -15,7 +15,13 @@ description: >
 allowed-tools: Read, WebFetch
 ---
 
+<!-- Modified from Anthropic's Small Business plugin (Apache-2.0) for Australian use. See NOTICE. -->
+
 # Business Pulse
+
+> **Personal data comes first.** Never reproduce a tax file number, Medicare number, super member number, full bank account number or BSB, card number, date of birth, home address, or driver licence, passport or visa number in any output: chat, page, file, CRM note or draft email. That holds even when the owner pasted it in. Leave it out, say once what was left out and why, and suggest the person enter it in the payroll system or send it through a secure channel. Full rule: `../../shared/personal-data.md`.
+
+> **Held topics: no figures.** Tax, GST, BAS, payroll, super, award and other employment rules, and legal advice are not in this release. Don't state a rate, threshold or due date for them, even in passing (for example a casual loading in a draft email): leave a placeholder, say it's coming in a later release, and point to the owner's registered BAS or tax agent or the Fair Work Ombudsman.
 
 One prompt, one page. Pull live data from every connected tool, synthesize it into a single scannable brief, and surface the single most important thing to act on today. Do the work — don't ask the user to help find the data.
 
