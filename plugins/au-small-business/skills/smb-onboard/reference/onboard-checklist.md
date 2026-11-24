@@ -1,3 +1,5 @@
+<!-- Modified from Anthropic's Small Business plugin (Apache-2.0) for Australian use. See NOTICE. -->
+
 # Onboard checklist
 
 ## The seven interview questions
@@ -66,7 +68,7 @@ Once the first ledger connector is live, read the organisation record before the
 
 If no ledger is connected but a storefront or point-of-sale connector is, read its shop record instead — Shopify `get-shop-info` (country and currency); Square the merchant record via `make_api_request` (`country`, `currency`). Neither holds a financial year end, so ask that one field alone during the interview: *"When does your financial year end?"* — do not re-ask country or currency. Storefronts are peers here as everywhere (`../../../shared/connector-neutrality.md`): read whichever is connected.
 
-If neither a ledger nor a storefront is connected, or the record is missing a field, ask one question during the interview: *"Which country is the business in, and what currency do you invoice in?"* Financial year end defaults to the country's common convention only after the owner confirms it. The rule and the field formats are in `../../../shared/currency-and-locale.md`.
+If neither a ledger nor a storefront is connected, or the record is missing a field, suggest and confirm in one question during the interview: *"I'll set this up for a business in Australia, invoicing in AUD, with a financial year ending 30 June. Is that right, or should I change any of them?"* Accept any change the owner makes (another country, currency or year end) without comment. Never save the three fields until the owner has confirmed them. The rule and the field formats are in `../../../shared/currency-and-locale.md`.
 
 ---
 

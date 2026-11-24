@@ -1,3 +1,7 @@
+## v0.1.7 (2026-11-24)
+
+No client updates
+
 ## v0.1.6 (2026-11-24)
 
 Remove the plugin icon key; record sync and payroll decisions.
