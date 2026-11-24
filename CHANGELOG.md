@@ -1,3 +1,7 @@
+## v0.1.6 (2026-11-24)
+
+Remove the plugin icon key; record sync and payroll decisions.
+
 ## v0.1.5 (2026-11-23)
 
 Plugin logo: name the icon in plugin.json.
